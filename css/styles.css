@@ -1,5 +1,5 @@
 body {
-    font-family: 'Roboto';
+    font-family: 'Roboto', 'sans-serif';
 }
 
 /*---------HEADER----------*/
@@ -17,7 +17,6 @@ body {
 
 .header-logo{
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -30,7 +29,6 @@ body {
 
 .header-logo-part {
     font-family: 'Raleway';
-    font-style: normal;
     font-weight: 800;
     font-size: 18px;
     line-height: 1.33;
@@ -43,11 +41,10 @@ body {
 }
 
 .header-list {
+
 }
 
 .header-item {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.50;
@@ -56,12 +53,14 @@ body {
 }
 
 .header-link {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 1.50;
+    letter-spacing: 0.02em;
+    color: #2E2F42;
 }
 
 .header-contacts {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -70,7 +69,6 @@ body {
 
 .main-btn {
     font-family: inherit;
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.19;
@@ -93,9 +91,6 @@ body {
 }
 
 .header-title {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 56px;
     line-height: 1.07;
     text-align: center;
@@ -117,9 +112,6 @@ body {
 }
 
 .middle-list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -127,8 +119,6 @@ body {
 }
 
 .middle-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.20;
@@ -139,9 +129,6 @@ body {
 /*---------TEAM----------*/
 
 .team-list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     text-align: center;
@@ -150,8 +137,6 @@ body {
 }
 
 .team-name {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.20;
@@ -167,13 +152,37 @@ body {
 }
 
 .footer-text {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
     color: #E7E9FC;
+}
+
+.footer-logo {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #F4F4FD;
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+}
+
+.footer-logo-part {
+    font-family: 'Raleway';
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4D5AE5;
 }
 
 /*---------PORTFOLIO----------*/
@@ -181,8 +190,6 @@ body {
 .portfolio-btn {
     cursor: pointer;
     background: #F4F4FD;
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 16px;
     line-height: 1.50;
@@ -201,8 +208,6 @@ body {
 }
 
 .works-title {
-    font-family: 'Roboto';
-    font-style: normal;
     font-weight: 700;
     font-size: 20px;
     line-height: 1.20;
@@ -211,9 +216,6 @@ body {
 }
 
 .works-list {
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
@@ -230,9 +232,6 @@ body {
     background: #4D5AE5;
     background-blend-mode: soft-light;
     mix-blend-mode: normal;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
     font-size: 16px;
     line-height: 1.50;
     letter-spacing: 0.02em;
