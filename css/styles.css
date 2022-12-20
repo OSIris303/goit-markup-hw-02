@@ -254,15 +254,3 @@ body {
 .works-bg {
     color: #FFFFFF;
 }
-
-/*---------CASHLESS PAYMENT----------*/
-
-.cashless-style {
-    background: #4D5AE5;
-    background-blend-mode: soft-light;
-    mix-blend-mode: normal;
-    font-size: 16px;
-    line-height: 1.50;
-    letter-spacing: 0.02em;
-    color: #F4F4FD;
-}
